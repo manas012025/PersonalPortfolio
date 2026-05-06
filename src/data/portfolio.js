@@ -10,11 +10,11 @@ export const personalInfo = {
   Java and the Spring ecosystem. I enjoy turning complex business requirements into clean, maintainable code — and I believe 
   good backend engineering is the foundation every great product is built on.`,
   bioShort: "Crafting production-grade Java backends with Spring Boot, JWT security, and cloud-native deployments.",
-  location: "Bhubaneswar, Odisha, India",
-  email: "manastripathy.dev@gmail.com",
+  location: "Banglore, Karnataka, India",
+  email: "manastripathy127@gmail.com",
   github: "https://github.com/manas-tripathy",
   linkedin: "https://linkedin.com/in/manas-tripathy",
-  resumeUrl: "#", // Update with actual resume link
+  resumeUrl: "/Manas_Tripathy_CV_2026.pdf", // Update with actual resume link
 };
 
 export const skills = [
@@ -152,15 +152,15 @@ export const projects = [
 export const experience = [
   {
     year: "2024 — Present",
-    title: "Self-Directed Backend Development",
+    title: "Associate Software Developer (RUMANGO)",
     type: "Learning & Projects",
     description:
       "Dedicated to mastering enterprise Java backend development through hands-on project building. Focused on Spring Boot microservices, security patterns, and cloud deployments.",
     achievements: [
-      "Built and deployed 4+ production-grade backend projects",
-      "Implemented JWT authentication systems from scratch",
-      "Learned Docker containerization and AWS EC2 deployments",
-      "Practiced clean architecture and SOLID principles",
+      "Built enterprise-grade backend systems using Java, Spring Boot, and JPA, focusing on scalability, security, and performance.",
+      "Designed and implemented multi-level workflow engines for account approvals and loan processing with role-based logic and state management.",
+      "Ensured data consistency and reliability by applying transaction management, concurrency handling, and robust validation mechanisms.",
+      "Developed real-world banking modules, including loan processing and OCR data transformation, improving automation and operational efficiency.",
     ],
   },
   {

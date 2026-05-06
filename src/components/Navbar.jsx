@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { HiMenuAlt3, HiX, HiMoon, HiSun } from 'react-icons/hi';
+import { personalInfo } from '../data/portfolio';
 
 const NAV_LINKS = [
   { label: 'About', href: '#about' },
@@ -84,7 +85,8 @@ export default function Navbar({ theme, toggleTheme }) {
 
             {/* Resume button — desktop */}
             <a
-              href="#"
+              href={personalInfo.resumeUrl}
+              target="_blank"
               className="hidden md:inline-flex items-center gap-1.5 px-4 py-1.5 border border-accent text-accent 
                          font-mono text-xs rounded-lg hover:bg-accent hover:text-bg-dark transition-all duration-200"
             >

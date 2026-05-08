@@ -39,7 +39,7 @@ export default function About() {
             <div className="space-y-4 text-text-secondary leading-relaxed">
               <p>
                 I'm a Backend Java Developer from{' '}
-                <span className="text-text-primary">Bhubaneswar, Odisha</span>, focused on
+                <span className="text-text-primary">Banglore, Karnataka</span>, focused on
                 building robust, secure, and scalable server-side systems. My core stack revolves
                 around Java, Spring Boot, and PostgreSQL — with a strong emphasis on clean
                 architecture and maintainable code.

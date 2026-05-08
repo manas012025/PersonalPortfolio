@@ -82,6 +82,8 @@
   .tag {
     @apply text-xs font-mono px-2 py-1 bg-accent/10 text-accent border border-accent/20 rounded;
   }
+
+  
 }
 
 /* ─── Utilities ────────────────────────────────────── */
@@ -112,3 +114,7 @@
   60% { width: 70%; }
   100% { width: 100%; }
 }
+
+
+
+

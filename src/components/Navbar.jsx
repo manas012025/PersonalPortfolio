@@ -34,7 +34,7 @@ export default function Navbar({ theme, toggleTheme }) {
     <>
       <motion.header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled ? 'bg-bg-dark/90 backdrop-blur-md border-b border-border' : 'bg-transparent'
+          scrolled ? 'dark:bg-bg-dark/90 bg-white backdrop-blur-md border-b border-border' : 'bg-transparent'
         }`}
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -74,14 +74,14 @@ export default function Navbar({ theme, toggleTheme }) {
           {/* Right controls */}
           <div className="flex items-center gap-3">
             {/* Theme toggle */}
-            <button
+            {/* <button
               onClick={toggleTheme}
               className="w-8 h-8 rounded-lg border border-border flex items-center justify-center 
                          text-text-secondary hover:text-accent hover:border-accent/40 transition-all duration-200"
               aria-label="Toggle theme"
             >
               {theme === 'dark' ? <HiSun size={14} /> : <HiMoon size={14} />}
-            </button>
+            </button> */}
 
             {/* Resume button — desktop */}
             <a

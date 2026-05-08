@@ -104,36 +104,6 @@ export const projects = [
   },
   {
     id: 2,
-    name: "File Transfer Security System",
-    subtitle: "Encrypted & validated file sharing service",
-    description:
-      "A secure file transfer system that enforces end-to-end encryption, file type validation, and integrated malware scanning before allowing any file to be stored or retrieved. Built to prevent data exfiltration and malicious uploads.",
-    longDescription:
-      "Implemented AES-256 encryption for files at rest and in transit. Added extensible validation pipeline for MIME type checking and file signature verification. Integrated ClamAV-compatible malware scanning hooks. Secured with Spring Security and audit logging.",
-    tech: ["Java", "Spring Boot", "AES Encryption", "Spring Security", "PostgreSQL", "Docker"],
-    github: "https://github.com/manas-tripathy",
-    live: null,
-    highlights: ["AES-256 Encryption", "Malware Scan", "File Validation", "Audit Logs"],
-    color: "#0066FF",
-    featured: true,
-  },
-  {
-    id: 3,
-    name: "API Gateway Project",
-    subtitle: "Centralized microservices entry point",
-    description:
-      "A Spring Cloud API Gateway that acts as the single entry point for a suite of microservices. Handles routing, load balancing, rate limiting, and centralized authentication via JWT token validation before forwarding requests downstream.",
-    longDescription:
-      "Built on Spring Cloud Gateway with dynamic route configuration. Implemented global JWT filter for pre-authentication, circuit breaker patterns with Resilience4j, and request/response logging. Supports service discovery integration.",
-    tech: ["Java", "Spring Cloud", "Spring Cloud Gateway", "JWT", "Microservices", "Docker"],
-    github: "https://github.com/manas-tripathy",
-    live: null,
-    highlights: ["Dynamic Routing", "JWT Filter", "Rate Limiting", "Circuit Breaker"],
-    color: "#A855F7",
-    featured: false,
-  },
-  {
-    id: 4,
     name: "User Authentication System",
     subtitle: "Stateless JWT + session management",
     description:
@@ -142,10 +112,10 @@ export const projects = [
       "Implemented access token + refresh token pattern with token rotation on each refresh. Added email verification via JavaMail, password reset with time-limited tokens, account lockout after failed attempts, and detailed security event logging.",
     tech: ["Java", "Spring Boot", "Spring Security", "JWT", "PostgreSQL", "JavaMail"],
     github: "https://github.com/manas-tripathy",
-    live: null,
+    live: "http://35.154.100.52:8080/swagger-ui/index.html",
     highlights: ["Token Rotation", "Email Verify", "Account Lockout", "Session Mgmt"],
     color: "#10B981",
-    featured: false,
+    featured: true,
   },
 ];
 

@@ -35,7 +35,7 @@ export default function App() {
         <>
           <ScrollProgress />
           <Navbar theme={theme} toggleTheme={toggleTheme} />
-          <main className="bg-bg-dark min-h-screen">
+          <main className="bg-white dark:bg-bg-dark min-h-screen transition-colors duration-300">
             <Hero />
             <About />
             <Skills />

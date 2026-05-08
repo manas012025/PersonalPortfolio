@@ -28,7 +28,7 @@ export default function Hero() {
                       bg-hero-gradient opacity-60 pointer-events-none" />
 
       {/* Radial fade at bottom */}
-      <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-bg-dark to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-48 dark:bg-gradient-to-t dark:from-bg-dark dark:to-transparent bg-transparent" />
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-24">
@@ -37,10 +37,10 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-4 py-2 bg-surface border border-border rounded-full mb-8"
+          className="inline-flex items-center gap-2 px-4 py-2 dark:bg-surface bg-white border border-border rounded-full mb-8"
         >
           <span className="w-2 h-2 rounded-full bg-green-400 glow-dot animate-pulse" />
-          <span className="font-mono text-xs text-text-secondary">
+          <span className="font-mono text-xs dark:text-text-secondary text-black">
             Available for opportunities
           </span>
         </motion.div>
@@ -50,7 +50,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="font-display text-5xl md:text-7xl lg:text-8xl font-700 text-text-primary mb-4 leading-none"
+          className="font-display text-5xl md:text-7xl lg:text-8xl font-700 dark:text-text-primary text-black mb-4 leading-none"
         >
           {personalInfo.name.split(' ').map((word, i) => (
             <span key={i} className={i === 1 ? 'gradient-text' : ''}>
